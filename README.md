@@ -35,4 +35,23 @@ def build_similarity_matrix(sentences, stop_words):
                 continue 
             similarity_matrix[idx1][idx2] = sentence_similarity(sentences[idx1], sentences[idx2], stop_words)return similarity_matrix
 
+### To use OpenPrompt for this task.
 
+Determine the classes and the InputExample of the task.
+
+classes will be in this case Python reserved words.
+
+``` # in abstract analysis tokens will be assigned to reserved word classes. There are a few more classes, for now count occurences
+classes = [
+"and" "exec" "not"
+"assert" "finally" "or"
+"break" "for" "pass"
+"class" "from" "print"
+"continue" 	"global" "raise"
+"def" "if" "return"
+"del" "import" "try"
+"elif" "in" "while"
+"else" "is" "with"
+"except" "lambda" "yield"
+]
+```
