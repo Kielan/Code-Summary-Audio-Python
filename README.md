@@ -23,6 +23,7 @@ The equivalent to stop words in programming templating are declarations.
 
 Building a similarity matrix, stop words are declarations, and when assessing block, line, and statement similarity the program must assess which products are precursors to steps in the program. Then order and display intelligently to assess where a program begins and ends.
 
+You can also inject CRUD blocks into a program to assess where a program can be stopped and then continued to assess execution flow.
 
 def build_similarity_matrix(sentences, stop_words):
     # Create an empty similarity matrix
