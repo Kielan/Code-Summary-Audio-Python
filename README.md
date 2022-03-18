@@ -55,3 +55,7 @@ classes = [
 "except" "lambda" "yield"
 ]
 ```
+[ ] Mantium AI count occurrences of class instantiations
+[ ] Mantium AI chain entry point of program task call (method call) and output order of methods called
+[ ] Mantium AI confirm that all method calls are counted
+[ ] Mantium AI which reads python code in ordered fashion audio
